@@ -42,6 +42,7 @@ body {
 .hero {
   width: 100%;
   object-fit: contain;
+  border-radius: 1rem;
 }
 
 .title {
