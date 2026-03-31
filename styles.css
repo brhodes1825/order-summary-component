@@ -45,6 +45,10 @@ body {
   border-radius: 1rem;
 }
 
+.container {
+  padding: 1.5rem 1rem;
+}
+
 .title {
   font-size: 1.125rem;
   color: black;
