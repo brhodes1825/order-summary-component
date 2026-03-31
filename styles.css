@@ -6,6 +6,7 @@
 /* Neutral */
 --blue50: hsl(225, 100%, 98%);
 --gray600: hsl(224, 23%, 55%);
+--gray-trans: hsl(224, 23%, 55%, 0.2);
 --blue950: hsl(223, 47%, 23%);  
 }
 
@@ -53,6 +54,17 @@ body {
   width: 100%;
   text-align: center;
   color: var(--gray600);
-  line-height: 1.125rem.
+  line-height: 1.125rem;
 }
 
+.details {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--gray-trans);
+  border-radius: .5rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
