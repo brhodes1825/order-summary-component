@@ -2,7 +2,7 @@
   /* Primary */
 --blue100: hsl(225, 100%, 94%);
 --blue700: hsl(245, 75%, 52%);
---blue700act: hsl(245, 75%, 52%, 0.2);
+--blue700act: hsl(245, 75%, 52%, 0.3);
 
 /* Neutral */
 --blue50: hsl(225, 100%, 98%);
@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-  padding: 1.5rem 1rem;
+  padding: 1.5rem;
 }
 
 .title {
@@ -66,41 +66,55 @@ body {
   text-align: center;
   color: var(--gray600);
   line-height: 1.5rem;
-  bottom-margin: 1rem;
+  margin-bottom: 1rem;
 }
 
 .details {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 1rem;
   background-color: var(--blue50);
-  border-radius: .5rem;
+  border-radius: 1rem;
   padding: 1rem;
+  margin-bottom: 1.rrem;
 }
 
 .stack {
   display: flex;
   flex-direction: column;
+  margin-right: 1rem;
 }
 
 .plan {
   font-weight: 700;
+  font-size: .8rem;
   color: black;
 }
 
 .cost {
   font-weight: 500;
+  font-size: .8rem;
   color: var(--gray600);
 }
 
 .stack .change {
   color: var(--blue700);
+  font-weight: 700;
+  font-size: .8rem;
 }
 
 .btn {
   background-color: var(--blue700);
   width: 100%;
+  border: none;
+  font-family: "Red Hat Display";
+  font-weight: 700;
+  font-size: .8rem;
+  color: white;
   padding: .8rem 2.3rem;
-  box-shadow: 10px 5px 5px var(--blue50);
+  box-shadow: 5px 15px 15px var(--blue50);
+  margin-bottom: 1.5rem;
 }
 
 .btn:hover {
@@ -109,6 +123,9 @@ body {
 
 .cancel {
   text-decoration: none;
+  width: 100%;
+  text-align: center;
+  font-size: .8rem;
   font-weight: 700;
   color: var(--gray600);
 }
