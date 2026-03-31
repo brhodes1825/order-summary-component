@@ -2,11 +2,11 @@
   /* Primary */
 --blue100: hsl(225, 100%, 94%);
 --blue700: hsl(245, 75%, 52%);
+--blue700act: hsl(245, 75%, 52%, 0.2);
 
 /* Neutral */
 --blue50: hsl(225, 100%, 98%);
 --gray600: hsl(224, 23%, 55%);
---gray-trans: hsl(224, 23%, 55%, 0.2);
 --blue950: hsl(223, 47%, 23%);  
 }
 
@@ -37,6 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: white;
+  font-family: "Red Hat Display";
 }
 
 .hero {
@@ -50,28 +51,68 @@ body {
 }
 
 .title {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
+  font-weight: 900;
   color: black;
   width: 100%;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .info {
   font-size: 1rem;
+  font-weight: 500;
   width: 100%;
   text-align: center;
   color: var(--gray600);
-  line-height: 1.125rem;
+  line-height: 1.5rem;
+  bottom-margin: 1rem;
 }
 
 .details {
   display: flex;
-  justify-content: space-between;
-  background-color: var(--gray-trans);
+  justify-content: center;
+  background-color: var(--blue50);
   border-radius: .5rem;
+  padding: 1rem;
 }
 
 .stack {
   display: flex;
   flex-direction: column;
+}
+
+.plan {
+  font-weight: 700;
+  color: black;
+}
+
+.cost {
+  font-weight: 500;
+  color: var(--gray600);
+}
+
+.stack .change {
+  color: var(--blue700);
+}
+
+.btn {
+  background-color: var(--blue700);
+  width: 100%;
+  padding: .8rem 2.3rem;
+  box-shadow: 10px 5px 5px var(--blue50);
+}
+
+.btn:hover {
+  background-color: var(--blue700act);
+}
+
+.cancel {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--gray600);
+}
+
+.cancel:hover {
+  color: var(--blue950);
 }
