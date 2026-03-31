@@ -32,9 +32,11 @@ body {
 
 .card {
   width: 20rem;
+  height: 30rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  background-color: white;
 }
 
 .hero {
