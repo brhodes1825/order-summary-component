@@ -106,6 +106,7 @@ body {
 
 .change:hover {
   background-color: var(--blue700act);
+  cursor: pointer;
 }
 
 .btn {
@@ -124,6 +125,7 @@ body {
 
 .btn:hover {
   background-color: var(--blue700act);
+  cursor: pointer;
 }
 
 .cancel {
@@ -137,4 +139,5 @@ body {
 
 .cancel:hover {
   color: var(--blue950);
+  cursor: pointer;
 }
