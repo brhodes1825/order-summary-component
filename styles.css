@@ -104,6 +104,10 @@ body {
   font-size: .925rem;
 }
 
+.change:hover {
+  background-color: var(--blue700act);
+}
+
 .btn {
   background-color: var(--blue700);
   width: 100%;
