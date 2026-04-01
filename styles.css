@@ -77,7 +77,7 @@ body {
   background-color: var(--blue50);
   border-radius: 1rem;
   padding: 1rem;
-  margin-bottom: 1.rem;
+  margin-bottom: 1rem;
 }
 
 .stack {
@@ -87,38 +87,35 @@ body {
 }
 
 .plan {
-  font-weight: 700;
-  font-size: .8rem;
+  font-weight: 800;
+  font-size: .925rem;
   color: black;
 }
 
 .cost {
   font-weight: 500;
-  font-size: .8rem;
+  font-size: .925rem;
   color: var(--gray600);
 }
 
-.stack .change {
+.change {
   color: var(--blue700);
-  font-weight: 700;
-  font-size: .8rem;
-}
-
-button {
-  box-shadow: 5px 15px 15px var(--blue50);
+  font-weight: 800;
+  font-size: .925rem;
 }
 
 .btn {
   background-color: var(--blue700);
   width: 100%;
   border: none;
-  border-radius: 1rem
+  border-radius: 1rem;
   font-family: "Red Hat Display";
   font-weight: 700;
-  font-size: 1rem;
+  font-size: .925rem;
   color: white;
   padding: .8rem 2.3rem;
   margin-bottom: 1.5rem;
+  box-shadow: 0 15px 15px 0 var(--blue50);
 }
 
 .btn:hover {
@@ -129,7 +126,7 @@ button {
   text-decoration: none;
   width: 100%;
   text-align: center;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--gray600);
 }
